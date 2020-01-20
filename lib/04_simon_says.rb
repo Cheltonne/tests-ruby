@@ -11,5 +11,5 @@ def repeat(str, n=2)
 end
 
 def start_of_word(str, i)
-    return str.slice(i-1)
+    return str.slice(0..i-1)
 end
